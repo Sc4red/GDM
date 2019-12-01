@@ -1,15 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <author/>
- <comment/>
- <exportmacro/>
  <class>ustawienia</class>
  <widget class="QDialog" name="ustawienia">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>375</width>
+    <height>147</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,8 +16,8 @@
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
     <rect>
-     <x>30</x>
-     <y>240</y>
+     <x>20</x>
+     <y>100</y>
      <width>341</width>
      <height>32</height>
     </rect>
@@ -31,8 +29,72 @@
     <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
    </property>
   </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Port:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>351</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ustawienia połączenia z miernikiem</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>121</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="contextMenuPolicy">
+    <enum>Qt::NoContextMenu</enum>
+   </property>
+   <property name="maxVisibleItems">
+    <number>6</number>
+   </property>
+   <property name="insertPolicy">
+    <enum>QComboBox::NoInsert</enum>
+   </property>
+   <item>
+    <property name="text">
+     <string>COM1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>COM4</string>
+    </property>
+   </item>
+  </widget>
  </widget>
- <pixmapfunction/>
  <resources/>
  <connections>
   <connection>

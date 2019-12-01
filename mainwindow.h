@@ -20,6 +20,9 @@ public:
 public slots:
     void SerialRecived();
 
+private slots:
+    void on_actionUstawienia_triggered();
+
 private:
     Ui::MainWindow *ui;
 

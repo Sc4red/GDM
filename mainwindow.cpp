@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <QSerialPort>
 #include <QDebug>
+#include "ustawienia.h"
 
 static QSerialPort *serial;
 static QObject object;
@@ -45,4 +46,11 @@ void MainWindow::SerialRecived()
 void MainWindow::WriteData(const QByteArray &data)
 {
     serial->write(data);
+}
+
+void MainWindow::on_actionUstawienia_triggered()
+{
+    ustawienia Ustawienia;
+    Ustawienia.show();
+    Ustawienia.exec();
 }
