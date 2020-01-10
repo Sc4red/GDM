@@ -33,14 +33,40 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>130</y>
+      <x>20</x>
+      <y>140</y>
       <width>131</width>
       <height>41</height>
      </rect>
     </property>
     <property name="text">
      <string>tekst</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>V</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>80</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>A</string>
     </property>
    </widget>
   </widget>
